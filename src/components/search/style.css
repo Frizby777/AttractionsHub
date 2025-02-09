@@ -1,0 +1,35 @@
+
+.search::placeholder {
+    text-align: center;
+}
+
+/*кнопка поиска*/
+.input-button-container {
+    height: 30px;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    border-radius: 50px;
+    /* Для скругления углов */
+}
+
+.input-button-container input {
+    color: black;
+    width: 40%;
+    line-height: 1.5;
+    padding: 0 10px;
+    flex-grow: 1;
+    /* Поле занимает всё доступное пространство */
+    border: none;
+    /* Границы отсутствуют */
+    padding: 5px;
+    outline: none;
+    /* Очертание при фокусе отсутствует */
+}
+
+.input-button-container button {
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    /* Курсор в виде указателя */
+}
